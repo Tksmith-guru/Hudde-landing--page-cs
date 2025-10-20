@@ -6,7 +6,6 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    /* background-color: black; */;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +23,6 @@ nav {
     padding: 20px 40px;
     margin: 30px 0 90px 0;
     width: 100%;
-    /* border: 2px solid red; */
 }
 
 nav button {
@@ -43,7 +41,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid green; */
 }
 
 header button:hover {
@@ -93,14 +90,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: start;
-    /* border: 2px solid red; */
     margin-right: 120px;
 }
 
 .messg {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid blue; */
     justify-content: center;
     align-items: start;
     margin-left: 100px;
@@ -125,7 +120,6 @@ h1 {
     justify-content: center;
     width: 100%;
     margin-top: 50px;
-    /* border: 2px solid yellow; */
 }
 
 .growth {
@@ -133,7 +127,6 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid red; */
     width: 100%;
     box-sizing: border-box;
     padding: 40px;
@@ -169,7 +162,6 @@ main img {
     justify-content: space-around;
     width: 100%;
     margin: 90px 0;
-    /* border: 2px solid blue; */
 }
 
 .convo p {
@@ -177,7 +169,6 @@ main img {
 }
 
 .cnv-img {
-    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,7 +182,6 @@ main img {
     align-items: start;
     justify-content: center;
     width: 30%;
-    /* border: 2px solid saddlebrown; */
 }
 
 .convo-text h3 {
@@ -202,10 +192,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* position: absolute; */
     align-items: center;
     background-color: hsl(207, 100%, 98%);
-    /* border: 2px solid navy; */
 }
 
 main p {
@@ -221,7 +209,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid yellowgreen; */
     margin: 0 0 100px 0;
 }
 
@@ -266,7 +253,6 @@ footer {
     box-sizing: border-box;
     position: absolute;
     background-color: hsl(192, 100%, 9%);
-    /* border: 2px solid aqua; */
 
 }
 
@@ -288,8 +274,6 @@ footer h3 {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    width:50%;
-    /* border: 2px solid firebrick; */
     padding: 20px;
     box-sizing: border-box;
 }
@@ -308,8 +292,6 @@ footer h3 {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    width: 100%;
-    /* border: 2px solid yellow; */
     gap: 18px;
 }
 
@@ -317,18 +299,12 @@ footer h3 {
     width: 60%;
 }
 
-/* .contact img {
-    width: 20px;
-    height: 20px;
-} */
-
 .subscribe {
     display: flex;
     flex-direction: column;
     justify-content: start;
     width: 50%;
     padding: 20px;
-    /* border: 2px solid lawngreen; */
 }
 
 .subscribe input {
@@ -346,7 +322,7 @@ footer h3 {
     border: none;
     background-color: hsl(322, 100%, 66%);
     color: white;
-    font-weight: bold;;
+    font-weight: bold;
 }
 
 .subscribe p {
@@ -372,7 +348,6 @@ footer h3 {
     align-items: center;
     justify-content: start;
     width: 50%;
-    /* border: 2px solid blue; */
     gap: 20px;
 }
 
@@ -385,12 +360,7 @@ footer h3 {
     display: block;
 }
 
-/* .socials-fb {
-    width: 70px;
-    height: 70px;
-    } */
-
-    @media only screen and (max-width: 1052px) {
+@media only screen and (max-width: 1052px) {
         h1 {
             font-size: 40px;
             width: 100%;
@@ -429,7 +399,6 @@ footer h3 {
 
 @media only screen and (max-width: 996px) {
     .inputs {
-        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -464,7 +433,6 @@ footer h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid blue; */
    }
 
    .comm,
@@ -477,14 +445,12 @@ footer h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid red; */
     margin: 0;
    }
    .messg {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid red; */
     margin: 0;
    }
 
@@ -501,7 +467,6 @@ footer h3 {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid red; */
    }
    
    .curve {
@@ -528,7 +493,6 @@ footer h3 {
 
     .grt-text {
         width: 100%;
-        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -551,13 +515,6 @@ footer h3 {
         width: 80%;
     }
 
-    .convo-text {
-        /* border: 2px solid red; */
-    }
-    .cnv-img {
-        /* border: 2px solid blue */
-    }
-
     main {
         display: flex;
         gap: 100px;
@@ -565,17 +522,14 @@ footer h3 {
 
     main p {
         width: 100%;
-        /* border: 2px solid red; */
     }
 
     .chatts {
         width: 70%;
-        /* border: 2px solid blue; */
     }
 
     section {
         width: 100%;
-        /* border: 2px solid yellow; */
         text-align: center;
     }
 
@@ -593,7 +547,6 @@ footer h3 {
         align-items: start;
         justify-content: start;
         width: 100%;
-        /* border: 2px solid blue; */
     }
 
     .contact p {
@@ -601,7 +554,6 @@ footer h3 {
     }
 
     .inputs {
-        /* border: 2px solid gold; */
         display: flex;
         flex-direction: column;
         align-items: end;
@@ -614,14 +566,12 @@ footer h3 {
         align-items: start;
         justify-content: center;
         width: 100%;
-        /* border: 2px solid firebrick; */
     }
 
 
     .subscribe h3,
     .subscribe p {
         width: 100%;
-        /* border: 2px solid darkblue; */
     }
 
     .number,
@@ -631,11 +581,9 @@ footer h3 {
         align-items: center;
         justify-content: start;
         width: 100%;
-        /* border: 2px solid red; */
     }
 
     .social-handles {
-        /* border: 2px solid green; */
         display: none;
         flex-direction: row;
         justify-content: center;
@@ -646,31 +594,23 @@ footer h3 {
         gap: 100px;
     }
 
-    header {
-        /* border: 2px solid red; */
-    }
-
      .comm-img {
         display: flex;
         flex-direction: row;
         align-items: start;
-        /* border: 2px solid gray; */
         width: 70%;
     }
 
      .comm p {
         text-align: center;
-        /* border: 2px solid red; */
     }
     
     .messg p {
         text-align: center;
-        /* border: 2px solid red; */
     }
 
     .comm,
     .messg  {
-        /* border: 2px solid gray; */
         display: flex;
         align-items: center;
         width: 40%;
@@ -702,6 +642,31 @@ footer h3 {
 
     .subscribe button {
         width: 50%;
+    }
+
+    .grt-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .convo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+    }
+
+    .chatts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -753,7 +718,6 @@ footer h3 {
 
     .group {
         width: 100%;
-        /* border: 2px solid blue; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -764,7 +728,6 @@ footer h3 {
         display: flex;
         flex-direction: row;
         align-items: start;
-        /* border: 2px solid gray; */
         width: 70%;
     }
 
@@ -772,21 +735,18 @@ footer h3 {
     .messg {
         display: flex;
         flex-direction: column;
-        /* align-items: start; */
-        /* width: 100%; */
+         align-items: start; *
+         width: 100%; *
         justify-content: center;
         align-items: center;
-        /* border: 2px solid aqua; */
     }
 
     .comm p {
         text-align: start;
-        /* border: 2px solid red; */
     }
     
     .messg p {
         text-align: center;
-        /* border: 2px solid red; */
     }
 
 }
