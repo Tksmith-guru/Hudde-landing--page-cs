@@ -479,6 +479,12 @@ footer h3 {
    }
 }
 
+@media only screen and (max-width: 745px) {
+    nav img {
+        width: 200px;
+    }
+}
+
 @media only screen and (max-width: 896px) {
     .growth {
         display: flex;
@@ -700,6 +706,15 @@ footer h3 {
 }
 
 @media only screen and (max-width: 556px) {
+    nav {
+        /* border:2px solid red; */
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
     nav img {
         width: 120px;
         height: 25px;
@@ -775,6 +790,38 @@ footer h3 {
 
     nav {
         padding: 20px 15px;
+        margin-top: 3px;
+    }
+
+    nav button {
+        width: 90px;
+        height: 25px;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    nav img {
+        width: 90px;
+        height: 18px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 490px) {
+    nav {
+        padding: 25px 20px;
+        margin-top: 9px;
+    }
+    
+    nav button {
+        width: 80px;
+        padding: 5px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    nav img {
+        width: 100px;
+        height: 20px;
     }
 }
 
